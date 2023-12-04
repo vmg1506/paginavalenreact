@@ -7,7 +7,7 @@ import LinkedinLogo from '../../assets/icons/linkedin.svg'
 
 function Footer () {
     return (
-        <div className="footer-container p-4" >
+        <div className="footer-container p-1" >
             <div className='footer-social-container'>
                 <img className="white-line" src={Line} alt="" />
                 <img className='social-icon' src={FacebookLogo} alt="" />
