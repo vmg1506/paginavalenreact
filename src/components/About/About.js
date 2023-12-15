@@ -1,6 +1,11 @@
 import './About.scss';
 import Psicologa from '../../assets/psicologa.jpg'
-import Cerebro from "../../assets/cerebro_1.png"
+import Niños from '../../assets/niño.png'
+import Adolescente from '../../assets/adolescente.png'
+import Adulto from '../../assets/adulto.png'
+import AboutCard from './AboutCard.js';
+
+
 
 function About () {
     return (
@@ -27,19 +32,58 @@ function About () {
                         </div>
                     </div>
                 </div>
-                <div className='about-experience-container'>
-                    <div className='row'>
-                        <div className='col'>
-                            <div>
-                                Tengo experiencia en psicoterapia individual en niños, adolescentes y adultos en el abordaje de problemáticas como: trastornos afectivos, ansiedad, depresión, duelo por ruptura o pérdida, dificultades en habilidades sociales, toma de decisiones, autoestima y autoconfianza, autorregulación emocional, orientación vocacional, pautas de crianza, psicoterapia de pareja y familia en asuntos como resolución de conflictos, acuerdos y fortalecimiento del vínculo.
+                <div className='about-experience-container py-5'>
+                    <div className='row h-100'>
+                        <div className='about-experience-text col d-flex align-items-center px-5'>
+                            <div className='text-center'>
+                                <p className='fs-4 text-dark fw-semibold'>
+                                    Tengo experiencia en psicoterapia individual en niños, adolescentes y adultos en el abordaje de problemáticas como: trastornos afectivos, ansiedad, depresión, duelo por ruptura o pérdida, dificultades en habilidades sociales, toma de decisiones, autoestima y autoconfianza, autorregulación emocional, orientación vocacional, pautas de crianza, psicoterapia de pareja y familia en asuntos como resolución de conflictos, acuerdos y fortalecimiento del vínculo.
+                                </p>
                             </div>
                         </div>
-                        <div className='col'>
-                            <img src={Cerebro} alt="" />
+                        <div className='about-experience-people col d-grid align-content-center'>
+                              <div className='row'>
+                                    <div className='col p-2 g-col-6'>
+                                        <div className='card h-100'>
+                                            <img src={Niños} className='card-img-top w-50 h-75' alt="" />
+                                            <div className='card-body'>
+                                                <p className='card-text fs-4'>
+                                                    Niños
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='col p-2 g-col-6'>
+                                    <div className='card h-100'>
+                                            <img src={Adolescente} className='card-img-top w-50 h-75' alt="" />
+                                            <div className='card-body'>
+                                                <p className='card-text fs-4'>
+                                                    Adolescentes
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div className='row'> 
+                                    <div className='col p-2 g-col-6'>
+                                    <div className='card h-100'>
+                                            <img src={Adulto} className='card-img-top w-50 h-75' alt="" />
+                                            <div className='card-body'>
+                                                <p className='card-text fs-4'>
+                                                    Adultos
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className='col p-2 g-col-6'>
+                                    </div>
+                              </div>
                         </div>
                     </div>
                 </div>
+                <AboutCard/>
             </div>
+            
         </>
     )
 }

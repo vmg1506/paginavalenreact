@@ -4,10 +4,107 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 1200px;
+    height: 100%;
     .aboutme-container {
         backdrop-filter: blur(4px);
         background-color: rgba(255, 255, 255, 0.45);
         
     }
+
+    
+
+    .about-experience-container {
+        height: 40%;
+        color: white;
+        backdrop-filter: blur(4px);
+        background-color: rgba(255, 255, 255, 0.45);
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-style: none;
+        backdrop-filter: blur(6px);
+        background-color: rgba(101, 247, 252, 0.219);
+    }
+    
+}
+
+.about-experience-people {
+    .row {
+        width: 98%;
+    }
+}
+
+
+.flip-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    
+    .card-container {
+        position: relative;
+        width: 75%;
+        height: 75%;
+        text-align: center;
+        transition: transform 0.5s;
+        transform-style: preserve-3d;
+        
+    }
+}
+
+.flip-container:hover .card-container {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 25px;
+}
+
+.front {
+    background-color: rgba(128, 148, 148, 0.87);
+    p {
+        color: white;
+        text-shadow: -1px 2px 21px rgba(243,239,239,1);
+    }
+    
+    
+}
+.back {
+    background-color: rgba(247, 113, 24, 0.349);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+.about-card-container {
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+
+.card-container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.about-focus-container {
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.45);
 }
