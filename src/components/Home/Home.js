@@ -1,4 +1,5 @@
 import './Home.scss'
+import Valen from '../../assets/valen.jpg';
 import Firma from '../../assets/logo_largo.png'
 import Familia from "../../assets/family.png"
 import Terapia from "../../assets/psicoterapy.png";
@@ -8,9 +9,14 @@ import Pareja from "../../assets/couple.png";
 function Home () {
     return (
         <div className="home-container">
-           <div className="home-banner-container">
-                <div className="home-logo-container">
-                    <img src={Firma} alt="" />
+           <div className="home-banner-container pt-5">
+                <div className='row'>
+                    <div className="col home-logo-container">
+                        <img src={Firma} alt="" />
+                    </div>
+                    <div className='home-banner-img col'>
+                        <img className="h-75 w-50" src={Valen} alt="" />
+                    </div>
                 </div>
            </div>
            <div className="home-info-container">
