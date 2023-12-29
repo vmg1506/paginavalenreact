@@ -11,31 +11,125 @@
         
     }
 
-    
-
     .about-experience-container {
-        height: 40%;
-        color: white;
+        display: grid;
+        height: 800px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas: "about-experience-text about-experience-people";
         backdrop-filter: blur(4px);
         background-color: rgba(255, 255, 255, 0.45);
-    }
-
-    .card {
+      }
+      
+      .about-experience-text {
+        display: grid;
+        grid-template-columns: 75%;
+        grid-template-rows: 55%;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-content: center;
+        grid-template-areas: ".";
+        grid-area: about-experience-text;
+        .texto {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+      
+      .about-experience-people {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 30% 30%;
+        gap: 25px 25px;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-content: center;
+        grid-template-areas: "about-card-1 about-card-2" "about-card-3 .";
+        grid-area: about-experience-people;
+      }
+      
+      .about-card-1 {
+        grid-area: about-card-1;
         display: flex;
         flex-direction: column;
         align-items: center;
-        border-style: none;
-        backdrop-filter: blur(6px);
-        background-color: rgba(101, 247, 252, 0.219);
-    }
+        backdrop-filter: blur(10px);
+        background-color: rgba(18, 241, 212, 0.25);
+      }
+      
+      .about-card-2 {
+        grid-area: about-card-2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        backdrop-filter: blur(10px);
+        background-color: rgba(18, 241, 212, 0.25);
+      }
+      
+      .about-card-3 {
+        grid-area: about-card-3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        backdrop-filter: blur(10px);
+        background-color: rgba(18, 241, 212, 0.25);
+      }
     
+      @media (max-width: 720px) {
+        .about-experience-container {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 50% 50%;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas: "about-experience-text" "about-experience-people";
+          }
+          
+          .about-experience-text {
+            display: grid;
+            grid-template-columns: 75%;
+            grid-template-rows: 50%;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            justify-content: center;
+            align-content: center;
+            grid-template-areas: ".";
+            grid-area: about-experience-text;
+            
+          }
+          
+          .about-experience-people {
+            display: grid;
+            grid-template-columns: 25% 25% 25%;
+            grid-template-rows: 50%;
+            gap: 0px 20px;
+            grid-auto-flow: row;
+            justify-content: center;
+            align-content: center;
+            grid-template-areas: "about-card-1 about-card-2 about-card-3";
+            grid-area: about-experience-people;
+          }
+          
+          .about-card-1 {
+            grid-area: about-card-1;
+          }
+          
+          .about-card-2 {
+            grid-area: about-card-2;
+          }
+          
+          .about-card-3 {
+            grid-area: about-card-3;
+          }
+    }
 }
 
-.about-experience-people {
-    .row {
-        width: 98%;
-    }
-}
+
+
 
 
 .flip-container {
@@ -108,3 +202,4 @@
     backdrop-filter: blur(4px);
     background-color: rgba(255, 255, 255, 0.45);
 }
+

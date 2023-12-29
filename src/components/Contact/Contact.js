@@ -18,7 +18,7 @@ function Contact () {
             <div className='container justify-content-center'>
                 <div className='container-content w-100'>
                     <p className='row w-100 fs-2 mt-5 fw-bold text-center text-primary'>Si te interesa contactarme, te invito a llenar este formulario y me contactare contigo tan pronto como me sea posible.</p>
-                    <form className='row w-75 gap-3 container justify-content-center my-5 py-5' action="" onSubmit={sendEmail}>
+                    <form data-aos="flip-right" data-aos-delay="1000" data-aos-duration="3000" className='row w-75 gap-3 container justify-content-center my-5 py-5' action="" onSubmit={sendEmail}>
                         <label className='w-50 fw-semibold' htmlFor="">Nombre</label>
                         <input className='w-50 ' type="text" name="name" placeholder='Nombre'/>
                         <label className='w-50 fw-semibold' htmlFor="">Apellidos</label>
