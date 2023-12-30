@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/paginavalenreact/static/css/main.5e44dbf8.css",
+    "main.js": "/paginavalenreact/static/js/main.d637a26d.js",
+    "static/media/banner.jpg": "/paginavalenreact/static/media/banner.c53a1c9670d0b320141f.jpg",
+    "static/media/contact.jpg": "/paginavalenreact/static/media/contact.747d32fb4180f8a14123.jpg",
+    "static/media/psicologa.jpg": "/paginavalenreact/static/media/psicologa.b3c9970d657872df4f8b.jpg",
+    "static/media/cerebro-papel-burbujas-chat.jpg": "/paginavalenreact/static/media/cerebro-papel-burbujas-chat.3add2dfd54f999218fa1.jpg",
+    "static/media/niño.png": "/paginavalenreact/static/media/niño.c9338d4e97694bfe9fd6.png",
+    "static/media/adolescente.png": "/paginavalenreact/static/media/adolescente.efc8533697e758fc3294.png",
+    "static/media/adulto.png": "/paginavalenreact/static/media/adulto.fa0be543d01716325d8f.png",
+    "static/media/valen.jpg": "/paginavalenreact/static/media/valen.b6422426f855671e927b.jpg",
+    "static/media/logo_largo.png": "/paginavalenreact/static/media/logo_largo.2cc3d827032da3b8ae03.png",
+    "static/media/psicoterapy.png": "/paginavalenreact/static/media/psicoterapy.0514ac5013158856f883.png",
+    "static/media/family.png": "/paginavalenreact/static/media/family.72cf50fa2431f49b0bb1.png",
+    "static/media/couple.png": "/paginavalenreact/static/media/couple.4fe90ef207b3e7de6057.png",
+    "index.html": "/paginavalenreact/index.html",
+    "main.5e44dbf8.css.map": "/paginavalenreact/static/css/main.5e44dbf8.css.map",
+    "main.d637a26d.js.map": "/paginavalenreact/static/js/main.d637a26d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e44dbf8.css",
+    "static/js/main.d637a26d.js"
+  ]
+}
