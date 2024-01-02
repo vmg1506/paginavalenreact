@@ -17,7 +17,7 @@ function AboutCard () {
                                     <p className='fs-3'>Terapia</p>
                                     <p className='fs-3'>Individual</p>
                                     <p className='fs-5'>Sesión</p>
-                                    <p className='fs-3'>$70.000</p>
+                                    <p className='fs-3'>$80.000</p>
                                 </div>
                                 <div className='back'>
                                     <button onClick={ () => navigate("/Contact") } type='button' className='btn btn-primary'>Contáctame!</button>
@@ -30,9 +30,9 @@ function AboutCard () {
                             <div className='card-container'>
                                 <div className='card-container-items front'>
                                     <p className='fs-3'>Terapia</p>
-                                    <p className='fs-3'> Pareja</p>
+                                    <p className='fs-3'>Pareja</p>
                                     <p className='fs-5'>Sesión</p>
-                                    <p className='fs-3'>$80.000</p>
+                                    <p className='fs-3'>$90.000</p>
                                 </div>
                                 <div className='back'>
                                 <button onClick={ () => navigate("/Contact") } type='button' className='btn btn-primary'>Contáctame!</button>
@@ -47,7 +47,7 @@ function AboutCard () {
                                     <p className='fs-3'>Terapia</p>
                                     <p className='fs-3'>Familiar</p>
                                     <p className='fs-5'>Sesión</p>
-                                    <p className='fs-3'>$80.000</p>
+                                    <p className='fs-3'>$90.000</p>
                                 </div>
                                 <div className='back'>
                                 <button onClick={ () => navigate("/Contact") } type='button' className='btn btn-primary'>Contáctame!</button>
