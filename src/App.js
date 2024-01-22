@@ -1,7 +1,7 @@
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header.js';
-/* import Footer from './components/Footer/Footer'; */
+import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
@@ -27,7 +27,7 @@ function App() {
           <Route path="/About-Me" element={ <About/> } />
           <Route path="Contact" element={ <Contact/> } />
       </Routes>
-      
+      <Footer/>
       
     </>
   );
